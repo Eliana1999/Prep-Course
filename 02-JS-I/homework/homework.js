@@ -71,7 +71,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-   if (str1.lenght === str2.lenght) {
+   if (str1.lengh === str2.lengh) {
     return true ; 
   } else {
   return  false ;
@@ -104,7 +104,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return x / y ;
+  return x/y ;
 }
 
 function esPar(num) {
@@ -210,7 +210,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return nombre + "Hola" + "Martin" + "!" ;
+  return "Hola" + nombre + "!" ;
 
 }
 
