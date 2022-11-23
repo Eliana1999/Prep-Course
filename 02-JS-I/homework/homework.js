@@ -72,8 +72,8 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
    if (str1.lenght === str2.lenght) {
-  return true ; 
-   } else {
+    return true ; 
+  } else {
   return  false ;
 }
 }
@@ -224,7 +224,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  
+  return lado * 4
 }
 
 
