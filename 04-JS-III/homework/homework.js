@@ -52,7 +52,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-  array[array.unshift] = elemento ;
+  array(array.unshift) = elemento ;
   return array ;
 
 }
@@ -89,10 +89,11 @@ function agregarNumeros(numeros) {
 
   for (var i = 0; i < numeros.length ; i++) {
     suma = suma + numeros [i];
+  }
 
     return suma ;
-  }
-  
+
+
 }
 
 
@@ -150,12 +151,12 @@ function diaDeLaSemana(numeroDeDia) {
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí
-  if (numeroDeDia === 1 || numeroDeDia === 7){
-    return 'Es fin de semana' ;
+  if(numeroDeDia === 1 || numeroDeDia === 7 ){
+    return "Es fin de semana"
   }
-    return 'Es dia laboral' ;
+  return "Es dia Laboral"
 } 
-  
+
 
 
 function empiezaConNueve(n) {
