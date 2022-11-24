@@ -53,7 +53,7 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return x / y ;
+  return x / y;
 }
 
 function sonIguales(x, y) {
@@ -71,7 +71,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-   if (str1.lengh === str2.lengh) {
+   if (str1.length === str2.length) {
     return true ; 
   } else {
   return  false ;
