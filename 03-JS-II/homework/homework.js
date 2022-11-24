@@ -212,9 +212,9 @@ function tieneTresDigitos(numero){
   //Escribe tu código aquí
  if (numero > 99 && numero < 1000) {
   return true ;
-  
+
  } else {
-  if (numero <99 && numero > 1000){
+  if (numero < 99 && numero > 1000) {
     return false ;
   }
  }
