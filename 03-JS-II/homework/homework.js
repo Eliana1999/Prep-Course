@@ -119,7 +119,7 @@ function esEntero(numero) {
   if (numero % 2 === 0) {
   return true ;
 
-  } else { (numero % 2 === 1)
+  } else { (numero % 2 !== 0)
     return false ;
 }
 }
@@ -204,7 +204,12 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  
+  let tablaDelSeis = [ ]
+  for ( i = 0 ; i < 11 ; i ++ ) {
+  tablaDelSeis.push (6 * i)
+  }
+
+  return tablaDelSeis
 }
 
 function tieneTresDigitos(numero){
@@ -224,6 +229,16 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+  var a = numero ;
+  var i = 0 ;
+
+  do {
+     i = i + 1 ;
+     a = a + 5 ; 
+  }
+
+  while ( i < 8 )
+  return valor
 }
 
 
