@@ -52,9 +52,8 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-  array(array.unshift) = elemento ;
+  array.unshift(elemento);
   return array ;
-
 }
 
 
@@ -88,7 +87,7 @@ function agregarNumeros(numeros) {
   var suma = 0 ;
 
   for (var i = 0; i < numeros.length ; i++) {
-    suma = suma + numeros [i];
+    suma += numeros [i];
   }
 
     return suma ;
@@ -101,6 +100,8 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  return agregarNumeros(resultadosTest) / resultadosTest.length;
+
 }
 
 
